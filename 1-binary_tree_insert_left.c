@@ -5,11 +5,11 @@
  * binary_tree_insert_left - function to insert in the left of the binary tree
  * @parent: pointer of binary_tree
  * @value: integer
- * return: binary_tree_t
+ * Return: binary_tree_t
 */
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 {
-binary_tree_t * new_b;
+binary_tree_t *new_b;
 new_b = malloc(sizeof(binary_tree_t));
 if (new_b == NULL)
 return (NULL);
