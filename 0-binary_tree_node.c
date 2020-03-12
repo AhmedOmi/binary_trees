@@ -14,5 +14,7 @@ if (new_b == NULL)
 return (NULL);
 new_b->parent = parent;
 new_b->n = value;
+new_b->left = NULL;
+new_b->right = NULL;
 return (new_b);
 }
