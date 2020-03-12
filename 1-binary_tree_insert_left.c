@@ -17,8 +17,8 @@ new_b->parent = parent;
 new_b->n = value;
 if (parent->left != NULL)
 parent->left->parent = new_b;
+new_b->right = NULL;
 new_b->left = parent->left;
 parent->left = new_b;
-new_b->right = NULL;
 return (new_b);
 }
